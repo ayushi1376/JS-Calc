@@ -1,0 +1,61 @@
+body{
+    font-family: 'Potta One', cursive;
+    background-color: black;
+    color:white;
+    text-align: center;
+    
+}
+#container{
+    width: 1000px;
+    height: 550px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 16%, rgba(253,29,29,1) 63%, rgba(252,176,69,1) 100%);
+    margin: 0 auto;
+}
+#calc{
+    width: 320px;
+    height: 520px;
+    background-color:white;
+    margin: 0 auto;
+    position: relative;
+    top:10px;
+    bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#res{
+    height: 120px;
+}
+#hist{
+    text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 15px;
+	color: #919191;
+}
+#histval{
+    text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 30px;
+}
+#keys{
+    height: 400px;
+}
+.operator, .number, .empty{
+    color: white;
+    background-color: black;
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bolder;
+	font-size: 20px;
+}
+.empty{
+    background-color: white;
+}
+.number, .operator{
+	cursor: pointer;
+}
